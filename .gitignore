@@ -29,3 +29,12 @@ front-end/.env.production.local
 front-end/npm-debug.log*
 front-end/yarn-debug.log*
 front-end/yarn-error.log*
+
+
+#predict_api
+
+predict_api/__pycache__/
+predict_api/.pytest_cache
+predict_api/src/__pycache__/
+predict_api/test/__pycache__/
+predict_api/.coverage
