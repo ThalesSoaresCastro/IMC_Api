@@ -22,9 +22,9 @@ Subindo a api pelo docker:
 
 Ou então:
 
--docker build -t api_imc ./
+- docker build -t api_imc ./
 
--docker run -d --name container_api_imc -p 6060:80 api_imc
+- docker run -d --name container_api_imc -p 6060:80 api_imc
 
 Acesso a api: substituindo localhost por 127.0.0.1
 Exemplo:
